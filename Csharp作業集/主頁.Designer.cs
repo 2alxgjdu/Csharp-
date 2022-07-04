@@ -40,6 +40,7 @@ namespace Csharp作業集
             this.成績登入 = new System.Windows.Forms.Button();
             this.成績統計 = new System.Windows.Forms.Button();
             this.點菜單 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.框1)).BeginInit();
             this.框1.Panel2.SuspendLayout();
             this.框1.SuspendLayout();
@@ -84,6 +85,7 @@ namespace Csharp作業集
             this.框2.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.框2.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("框2.Panel1.BackgroundImage")));
             this.框2.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.框2.Panel1.Controls.Add(this.button1);
             this.框2.Panel1.Controls.Add(this.OXgame);
             this.框2.Panel1.Controls.Add(this.計算機);
             this.框2.Panel1.Controls.Add(this.自我介紹);
@@ -110,7 +112,7 @@ namespace Csharp作業集
             this.OXgame.Font = new System.Drawing.Font("新細明體", 14F);
             this.OXgame.Location = new System.Drawing.Point(4, 153);
             this.OXgame.Name = "OXgame";
-            this.OXgame.Size = new System.Drawing.Size(109, 28);
+            this.OXgame.Size = new System.Drawing.Size(115, 28);
             this.OXgame.TabIndex = 15;
             this.OXgame.Text = "井字遊戲";
             this.OXgame.UseVisualStyleBackColor = true;
@@ -121,7 +123,7 @@ namespace Csharp作業集
             this.計算機.Font = new System.Drawing.Font("新細明體", 14F);
             this.計算機.Location = new System.Drawing.Point(4, 221);
             this.計算機.Name = "計算機";
-            this.計算機.Size = new System.Drawing.Size(109, 28);
+            this.計算機.Size = new System.Drawing.Size(115, 28);
             this.計算機.TabIndex = 14;
             this.計算機.Text = "計算機";
             this.計算機.UseVisualStyleBackColor = true;
@@ -130,7 +132,7 @@ namespace Csharp作業集
             // 自我介紹
             // 
             this.自我介紹.Font = new System.Drawing.Font("新細明體", 14F);
-            this.自我介紹.Location = new System.Drawing.Point(3, 3);
+            this.自我介紹.Location = new System.Drawing.Point(4, 3);
             this.自我介紹.Name = "自我介紹";
             this.自我介紹.Size = new System.Drawing.Size(115, 29);
             this.自我介紹.TabIndex = 7;
@@ -143,7 +145,7 @@ namespace Csharp作業集
             this.成績搜尋.Font = new System.Drawing.Font("新細明體", 14F);
             this.成績搜尋.Location = new System.Drawing.Point(3, 187);
             this.成績搜尋.Name = "成績搜尋";
-            this.成績搜尋.Size = new System.Drawing.Size(114, 28);
+            this.成績搜尋.Size = new System.Drawing.Size(116, 28);
             this.成績搜尋.TabIndex = 12;
             this.成績搜尋.Text = "成績搜尋";
             this.成績搜尋.UseVisualStyleBackColor = true;
@@ -152,9 +154,9 @@ namespace Csharp作業集
             // 貸款計算
             // 
             this.貸款計算.Font = new System.Drawing.Font("新細明體", 14F);
-            this.貸款計算.Location = new System.Drawing.Point(3, 118);
+            this.貸款計算.Location = new System.Drawing.Point(4, 118);
             this.貸款計算.Name = "貸款計算";
-            this.貸款計算.Size = new System.Drawing.Size(109, 29);
+            this.貸款計算.Size = new System.Drawing.Size(116, 29);
             this.貸款計算.TabIndex = 11;
             this.貸款計算.Text = "貸款計算";
             this.貸款計算.UseVisualStyleBackColor = true;
@@ -165,7 +167,7 @@ namespace Csharp作業集
             this.成績登入.Font = new System.Drawing.Font("新細明體", 14F);
             this.成績登入.Location = new System.Drawing.Point(4, 78);
             this.成績登入.Name = "成績登入";
-            this.成績登入.Size = new System.Drawing.Size(109, 34);
+            this.成績登入.Size = new System.Drawing.Size(115, 34);
             this.成績登入.TabIndex = 10;
             this.成績登入.Text = "成績登入";
             this.成績登入.UseVisualStyleBackColor = true;
@@ -174,7 +176,7 @@ namespace Csharp作業集
             // 成績統計
             // 
             this.成績統計.Font = new System.Drawing.Font("新細明體", 14F);
-            this.成績統計.Location = new System.Drawing.Point(2, 255);
+            this.成績統計.Location = new System.Drawing.Point(4, 255);
             this.成績統計.Name = "成績統計";
             this.成績統計.Size = new System.Drawing.Size(115, 28);
             this.成績統計.TabIndex = 9;
@@ -185,13 +187,24 @@ namespace Csharp作業集
             // 點菜單
             // 
             this.點菜單.Font = new System.Drawing.Font("新細明體", 14F);
-            this.點菜單.Location = new System.Drawing.Point(3, 38);
+            this.點菜單.Location = new System.Drawing.Point(4, 38);
             this.點菜單.Name = "點菜單";
-            this.點菜單.Size = new System.Drawing.Size(115, 34);
+            this.點菜單.Size = new System.Drawing.Size(116, 34);
             this.點菜單.TabIndex = 8;
             this.點菜單.Text = "點菜單";
             this.點菜單.UseVisualStyleBackColor = true;
             this.點菜單.Click += new System.EventHandler(this.點菜單_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("新細明體", 14F);
+            this.button1.Location = new System.Drawing.Point(4, 289);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(115, 28);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "陣列表單";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // 主頁
             // 
@@ -223,5 +236,6 @@ namespace Csharp作業集
         private System.Windows.Forms.Button 點菜單;
         private System.Windows.Forms.Button 計算機;
         private System.Windows.Forms.Button OXgame;
+        private System.Windows.Forms.Button button1;
     }
 }

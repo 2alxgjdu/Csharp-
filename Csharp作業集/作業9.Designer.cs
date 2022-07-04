@@ -49,7 +49,7 @@ namespace Csharp作業集
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.結果1 = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
@@ -57,11 +57,11 @@ namespace Csharp作業集
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.距1 = new System.Windows.Forms.TextBox();
+            this.距3 = new System.Windows.Forms.TextBox();
+            this.距2 = new System.Windows.Forms.TextBox();
+            this.樹 = new System.Windows.Forms.TextBox();
+            this.猜數字 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -72,6 +72,7 @@ namespace Csharp作業集
             this.button1.TabIndex = 0;
             this.button1.Text = "陣列arr0711[]統計奇數偶數";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -81,6 +82,7 @@ namespace Csharp作業集
             this.button2.TabIndex = 1;
             this.button2.Text = "陣列arr0711_STR[]最長的名字";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -90,6 +92,7 @@ namespace Csharp作業集
             this.button3.TabIndex = 2;
             this.button3.Text = "輸入奇數or偶數";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -99,6 +102,7 @@ namespace Csharp作業集
             this.button4.TabIndex = 3;
             this.button4.Text = "陣列arr0711[]最大最小值";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -108,6 +112,7 @@ namespace Csharp作業集
             this.button5.TabIndex = 4;
             this.button5.Text = "陣列ARR0711_STR[]xue\"C\"or\"c\"的字樣有幾個";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -117,6 +122,7 @@ namespace Csharp作業集
             this.button6.TabIndex = 5;
             this.button6.Text = "清空";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -126,6 +132,7 @@ namespace Csharp作業集
             this.button7.TabIndex = 6;
             this.button7.Text = "[10,10]二微陣列-邊1,內0";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -135,6 +142,7 @@ namespace Csharp作業集
             this.button8.TabIndex = 7;
             this.button8.Text = "[10,10]二微陣列-邊0,內1";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -145,6 +153,7 @@ namespace Csharp作業集
             this.button9.Text = "[10,10]二維陣列\r\n1010101010\r\n0101010101\r\n1010101010\r\n0101010101\r\n1010101010\r\n01010101" +
     "01\r\n";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -154,6 +163,7 @@ namespace Csharp作業集
             this.button10.TabIndex = 9;
             this.button10.Text = "Swap[int,int]";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -163,6 +173,7 @@ namespace Csharp作業集
             this.button11.TabIndex = 10;
             this.button11.Text = "MIN(陣列arr0711[])";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -172,6 +183,7 @@ namespace Csharp作業集
             this.button12.TabIndex = 11;
             this.button12.Text = "MAX(陣列arr0711[])";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
@@ -181,6 +193,7 @@ namespace Csharp作業集
             this.button13.TabIndex = 12;
             this.button13.Text = "Sum(陣列arr0711[])";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // label1
             // 
@@ -236,16 +249,16 @@ namespace Csharp作業集
             this.label6.TabIndex = 18;
             this.label6.Text = "to:";
             // 
-            // label7
+            // 結果1
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Yellow;
-            this.label7.Font = new System.Drawing.Font("新細明體", 14F);
-            this.label7.Location = new System.Drawing.Point(12, 299);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(47, 19);
-            this.label7.TabIndex = 19;
-            this.label7.Text = "結果";
+            this.結果1.AutoSize = true;
+            this.結果1.BackColor = System.Drawing.Color.Yellow;
+            this.結果1.Font = new System.Drawing.Font("新細明體", 14F);
+            this.結果1.Location = new System.Drawing.Point(12, 299);
+            this.結果1.Name = "結果1";
+            this.結果1.Size = new System.Drawing.Size(47, 19);
+            this.結果1.TabIndex = 19;
+            this.結果1.Text = "結果";
             // 
             // button14
             // 
@@ -267,6 +280,7 @@ namespace Csharp作業集
             this.button15.TabIndex = 21;
             this.button15.Text = "do";
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -277,6 +291,7 @@ namespace Csharp作業集
             this.button16.TabIndex = 22;
             this.button16.Text = "while";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -287,6 +302,7 @@ namespace Csharp作業集
             this.button17.TabIndex = 23;
             this.button17.Text = "樂透int[不中]";
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -297,6 +313,7 @@ namespace Csharp作業集
             this.button18.TabIndex = 24;
             this.button18.Text = "九九乘法表";
             this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 
@@ -307,6 +324,7 @@ namespace Csharp作業集
             this.button19.TabIndex = 25;
             this.button19.Text = "100的二進位";
             this.button19.UseVisualStyleBackColor = false;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
@@ -317,41 +335,42 @@ namespace Csharp作業集
             this.button20.TabIndex = 26;
             this.button20.Text = "for";
             this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
-            // textBox1
+            // 距1
             // 
-            this.textBox1.Location = new System.Drawing.Point(360, 178);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(51, 22);
-            this.textBox1.TabIndex = 27;
+            this.距1.Location = new System.Drawing.Point(360, 178);
+            this.距1.Name = "距1";
+            this.距1.Size = new System.Drawing.Size(51, 22);
+            this.距1.TabIndex = 27;
             // 
-            // textBox2
+            // 距3
             // 
-            this.textBox2.Location = new System.Drawing.Point(360, 241);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(51, 22);
-            this.textBox2.TabIndex = 28;
+            this.距3.Location = new System.Drawing.Point(360, 241);
+            this.距3.Name = "距3";
+            this.距3.Size = new System.Drawing.Size(51, 22);
+            this.距3.TabIndex = 28;
             // 
-            // textBox3
+            // 距2
             // 
-            this.textBox3.Location = new System.Drawing.Point(360, 210);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(51, 22);
-            this.textBox3.TabIndex = 29;
+            this.距2.Location = new System.Drawing.Point(360, 210);
+            this.距2.Name = "距2";
+            this.距2.Size = new System.Drawing.Size(51, 22);
+            this.距2.TabIndex = 29;
             // 
-            // textBox4
+            // 樹
             // 
-            this.textBox4.Location = new System.Drawing.Point(577, 143);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(51, 22);
-            this.textBox4.TabIndex = 30;
+            this.樹.Location = new System.Drawing.Point(577, 143);
+            this.樹.Name = "樹";
+            this.樹.Size = new System.Drawing.Size(51, 22);
+            this.樹.TabIndex = 30;
             // 
-            // textBox5
+            // 猜數字
             // 
-            this.textBox5.Location = new System.Drawing.Point(80, 31);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(78, 22);
-            this.textBox5.TabIndex = 31;
+            this.猜數字.Location = new System.Drawing.Point(80, 31);
+            this.猜數字.Name = "猜數字";
+            this.猜數字.Size = new System.Drawing.Size(78, 22);
+            this.猜數字.TabIndex = 31;
             // 
             // 作業9
             // 
@@ -360,11 +379,11 @@ namespace Csharp作業集
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(805, 609);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.猜數字);
+            this.Controls.Add(this.樹);
+            this.Controls.Add(this.距2);
+            this.Controls.Add(this.距3);
+            this.Controls.Add(this.距1);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button18);
@@ -372,7 +391,7 @@ namespace Csharp作業集
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button14);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.結果1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -421,7 +440,7 @@ namespace Csharp作業集
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label 結果1;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
@@ -429,10 +448,10 @@ namespace Csharp作業集
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox 距1;
+        private System.Windows.Forms.TextBox 距3;
+        private System.Windows.Forms.TextBox 距2;
+        private System.Windows.Forms.TextBox 樹;
+        private System.Windows.Forms.TextBox 猜數字;
     }
 }

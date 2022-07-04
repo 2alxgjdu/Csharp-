@@ -216,6 +216,7 @@ namespace Csharp作業集
         private void button2_Click(object sender, EventArgs e)
         {
             Close();
+            
         }
 
         private void button1_Click_1(object sender, EventArgs e)

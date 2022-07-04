@@ -39,5 +39,11 @@ namespace Csharp作業集
         {
 
         }
+
+        private void name_Click(object sender, EventArgs e)
+        {
+
+
+        }
     }
 }

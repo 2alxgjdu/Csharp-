@@ -60,6 +60,8 @@ namespace Csharp作業集
             // 
             // julice01LB
             // 
+            this.julice01LB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("julice01LB.BackgroundImage")));
+            this.julice01LB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.julice01LB.Font = new System.Drawing.Font("新細明體", 20F);
             this.julice01LB.Location = new System.Drawing.Point(26, 78);
             this.julice01LB.Name = "julice01LB";
@@ -71,6 +73,8 @@ namespace Csharp作業集
             // 
             // julice02LB
             // 
+            this.julice02LB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("julice02LB.BackgroundImage")));
+            this.julice02LB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.julice02LB.Font = new System.Drawing.Font("新細明體", 20F);
             this.julice02LB.Location = new System.Drawing.Point(161, 78);
             this.julice02LB.Name = "julice02LB";
@@ -82,6 +86,8 @@ namespace Csharp作業集
             // 
             // allLB
             // 
+            this.allLB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("allLB.BackgroundImage")));
+            this.allLB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.allLB.Font = new System.Drawing.Font("新細明體", 20F);
             this.allLB.Location = new System.Drawing.Point(26, 229);
             this.allLB.Name = "allLB";
@@ -93,6 +99,8 @@ namespace Csharp作業集
             // 
             // chocoLB
             // 
+            this.chocoLB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("chocoLB.BackgroundImage")));
+            this.chocoLB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.chocoLB.Font = new System.Drawing.Font("新細明體", 20F);
             this.chocoLB.Location = new System.Drawing.Point(161, 229);
             this.chocoLB.Name = "chocoLB";

@@ -192,7 +192,7 @@ namespace Csharp作業集
             // TX2
             // 
             this.TX2.Font = new System.Drawing.Font("新細明體", 12F);
-            this.TX2.Location = new System.Drawing.Point(120, 424);
+            this.TX2.Location = new System.Drawing.Point(128, 426);
             this.TX2.Name = "TX2";
             this.TX2.Size = new System.Drawing.Size(53, 27);
             this.TX2.TabIndex = 14;

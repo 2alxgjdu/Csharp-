@@ -165,7 +165,7 @@ namespace Csharp作業集
             // 
             // 結束遊戲
             // 
-            this.結束遊戲.Location = new System.Drawing.Point(227, 397);
+            this.結束遊戲.Location = new System.Drawing.Point(408, 409);
             this.結束遊戲.Name = "結束遊戲";
             this.結束遊戲.Size = new System.Drawing.Size(101, 40);
             this.結束遊戲.TabIndex = 10;
