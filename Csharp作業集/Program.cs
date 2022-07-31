@@ -17,7 +17,6 @@ namespace Csharp作業集
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new 主頁());
-
         }
     }
 }

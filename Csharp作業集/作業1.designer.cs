@@ -104,7 +104,6 @@ namespace Csharp作業集
             this.name.Size = new System.Drawing.Size(149, 39);
             this.name.TabIndex = 6;
             this.name.Text = "中文姓名";
-            this.name.Click += new System.EventHandler(this.name_Click);
             // 
             // mg
             // 

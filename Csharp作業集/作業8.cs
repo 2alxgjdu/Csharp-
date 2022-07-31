@@ -49,7 +49,6 @@ namespace Csharp作業集
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             i = double.Parse(t1.Text);
             j = double.Parse(t2.Text);
             ans = i + j;

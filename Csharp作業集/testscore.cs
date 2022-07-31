@@ -19,7 +19,6 @@ namespace Csharp作業集
 
         public int CH;
 
-
         public int EN;
 
         public int Math;

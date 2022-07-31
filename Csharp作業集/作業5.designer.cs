@@ -175,7 +175,7 @@ namespace Csharp作業集
             // 
             // nametx
             // 
-            this.nametx.Location = new System.Drawing.Point(88, 51);
+            this.nametx.Location = new System.Drawing.Point(88, 53);
             this.nametx.Name = "nametx";
             this.nametx.Size = new System.Drawing.Size(100, 22);
             this.nametx.TabIndex = 16;

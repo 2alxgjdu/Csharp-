@@ -48,7 +48,7 @@ namespace Csharp作業集
             this.money.BackColor = System.Drawing.Color.Transparent;
             this.money.Font = new System.Drawing.Font("新細明體", 20F);
             this.money.ForeColor = System.Drawing.SystemColors.Control;
-            this.money.Location = new System.Drawing.Point(122, 87);
+            this.money.Location = new System.Drawing.Point(117, 87);
             this.money.Name = "money";
             this.money.Size = new System.Drawing.Size(124, 31);
             this.money.TabIndex = 0;
